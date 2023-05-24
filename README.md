@@ -1,7 +1,8 @@
 # Установка
-1. Composer
+### 1. Composer
+``
 composer install
-
+``
 2. Npm
 npm install
 
