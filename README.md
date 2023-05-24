@@ -16,23 +16,35 @@
 
 
 # Установка
-### 1. Composer
-``
-composer install
-``
-### 2. Npm
-``
-npm install
-``
+ # Clone the project
+ git clone https://github.com/ramoncrisante/laravel-vue-dashboard.git
 
-``
-npm run dev
-``
-### 3. Laravel
-``
-php artisan migrate
-``
+ # Enter the project directory
+ cd laravel-vue-dashboard
 
-``
-php artisan serve
-``
+ # Copy env file and add your own database and mail credentials
+ cp .env.example .env
+
+ # Install dependency
+ composer install
+
+ # Generate app key
+ php artisan key:generate
+ 
+ # Migrate database
+ php artisan migrate
+
+ # Create encryption keys
+ php artisan passport:install
+
+ # Install dependency with NPM
+ npm install
+
+ # Develop
+ npm run dev # or npm run watch
+
+ # Build on production
+ npm run production
+ 
+ # Serving application
+ php artisan serve
