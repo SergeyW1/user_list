@@ -17,7 +17,7 @@
 
 # Установка
 ```
-- git clone [https://github.com/ramoncrisante/laravel-vue-dashboard.git](https://github.com/SergeyW1/user_list.git)
+- git clone https://github.com/SergeyW1/user_list.git
 
 - cp .env.example .env
 
