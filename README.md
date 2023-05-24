@@ -13,7 +13,11 @@ npm install
 npm run dev
 ``
 
-3. Laravel
+### 3. Laravel
+``
 php artisan migrate
+``
 
+``
 php artisan serve
+``
