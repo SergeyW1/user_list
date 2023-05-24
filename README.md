@@ -20,7 +20,6 @@
 ``
 composer install
 ``
-
 ### 2. Npm
 ``
 npm install
@@ -29,7 +28,6 @@ npm install
 ``
 npm run dev
 ``
-
 ### 3. Laravel
 ``
 php artisan migrate
