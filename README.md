@@ -1,6 +1,7 @@
 # Установка
 ### 1. Composer
-``
+``![image](https://github.com/SergeyW1/user_list/assets/103772063/645de19e-b4d2-4d7c-8bfa-c8ffb60fb9d9)
+
 composer install
 ``
 
